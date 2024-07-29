@@ -1,7 +1,12 @@
 // @ts-nocheck
+<<<<<<< HEAD
+=======
+
+>>>>>>> 7e86d7a20456c8dbfdc1e45b3a422fbf22e35471
 
 "use client";
 
+<<<<<<< HEAD
 import { toDoItem } from "./type/toDoItem";
 import { useState } from "react";
 
@@ -66,5 +71,17 @@ const Page = () => {
     )}
   </div>);
 } 
+=======
+function Page(){
+  
+
+  return (
+   <div className="container mx-auto">
+
+   </div>
+    
+  );
+}
+>>>>>>> 7e86d7a20456c8dbfdc1e45b3a422fbf22e35471
 
 export default Page; 
