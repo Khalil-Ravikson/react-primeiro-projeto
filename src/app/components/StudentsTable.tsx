@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 import { Students } from "../type/Students";
 
 type Props ={
@@ -47,12 +46,3 @@ export const StudentsTable = ({student}: Props) => {
         </div>
     );
 }
-=======
-export const StudentTale = () => {
-    return(
-        <div>
-            ...
-        </div>
-    )
-} 
->>>>>>> 7e86d7a20456c8dbfdc1e45b3a422fbf22e35471
