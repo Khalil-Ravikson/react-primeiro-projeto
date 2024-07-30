@@ -3,7 +3,7 @@
 
 "use client";
 
-import { toDoItem } from "./type/toDoItem";
+import { toDoItem } from "./types/toDoItem";
 import { useState } from "react";
 
 const Page = () => {
