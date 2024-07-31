@@ -1,6 +1,6 @@
 import { Question } from "../types/Question";
 
-export const question: Question[]= [
+export const questionsData: Question[]= [
     {
         question: " QUAL A ALTERNATIVA CORRETA? ",
         option: [
