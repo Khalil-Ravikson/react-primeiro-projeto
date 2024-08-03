@@ -18,14 +18,25 @@ export const Questionary = ({question,count,onAnswer}: Props) => {
         if (isCorrect === true) {
           const audio = new Audio('/thunder-124463.mp3');
           audio.play();
+          setTimeout(() =>{
+            audio.pause();
+          }, 5000)
         }
       }, [isCorrect]);
 
     const checkQuestion = (key:number) => {
-        if(selectedQuestion === null)
+        if(selectedQuestion === null){
             setSelectedQuestion(key)
             setIsCorrect(key === question.answer);
-            onAnswer(key)
+            
+            setTimeout(() =>{
+            onAnswer(key);
+            setSelectedQuestion(null);
+            setIsCorrect(null);   
+            },6000)
+            
+        }
+            
     }
 
     return(
