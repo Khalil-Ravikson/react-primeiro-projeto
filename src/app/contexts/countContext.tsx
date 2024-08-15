@@ -7,7 +7,8 @@ type countContextType ={
 }
 export const countContext = createContext<countContextType | null>(null);
 
-type Props ={children:ReactNode}
+type Props ={children:ReactNode;};
+
 export const countProvider = ({ children }:Props) => {
   
   const [onlineCount,setOnlineCount] = useState(30);

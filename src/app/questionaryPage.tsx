@@ -11,7 +11,7 @@ import { Results } from "./components/Results";
 
 
 
-const Page = () => {
+const questionaryPage = () => {
   
 const title = "QUESTIONARIO IMPORTANTE";
 const [answers,setAnswers] = useState<number[]>([]);
@@ -86,4 +86,4 @@ const handleNextButton = () => {};
  
 
 
-export default Page; 
+export default questionaryPage; 
