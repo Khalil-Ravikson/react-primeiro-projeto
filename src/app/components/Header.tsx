@@ -9,8 +9,8 @@ export const Header = ( ) =>{
     return (
     <header>
 
-            <div className=" text-4xl">
-                <h1>SEM TITULO</h1>
+            <div className=" text-4xl uppercase">
+                <h1>Sistema de Post sem banco de dados</h1>
                 <OnlineUser/>
             </div>
 
