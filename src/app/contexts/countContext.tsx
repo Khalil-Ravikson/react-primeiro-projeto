@@ -1,22 +1,20 @@
-
 import { createContext, ReactNode, useState } from 'react';
 
-type countContextType ={
-    onlineCount:number;
-    setOnlineCount:(n:number) => void;
-}
-export const countContext = createContext<countContextType | null>(null);
+type CountContextType = {
+    onlineCount: number;
+    setOnlineCount: (n: number) => void;
+};
 
-type Props ={children:ReactNode;};
+export const CountContext = createContext<CountContextType | null>(null);
 
-export const countProvider = ({ children }:Props) => {
-  
-  const [onlineCount,setOnlineCount] = useState(30);
+type Props = { children: ReactNode };
 
-  return (
-    <countContext.Provider value={{onlineCount, setOnlineCount}}>
-      {children}
-    </countContext.Provider>
-  );
-}
+export const CountProvider = ({ children }: Props) => {
+    const [onlineCount, setOnlineCount] = useState(30);
 
+    return (
+        <CountContext.Provider value={{ onlineCount, setOnlineCount }}>
+            {children}
+        </CountContext.Provider>
+    );
+};

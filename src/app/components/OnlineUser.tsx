@@ -1,12 +1,12 @@
 import { useContext } from "react";
-import { countContext } from "../contexts/countContext";
+import { CountContext } from "../contexts/CountContext";
 
 
 
 
 export const OnlineUser = () => {
  
-    const countCtx= useContext(countContext);
+    const countCtx= useContext(CountContext);
     const handle = () => {
         countCtx?.setOnlineCount(0)
     }

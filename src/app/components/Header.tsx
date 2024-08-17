@@ -1,10 +1,10 @@
 import { useContext, useState } from "react";
-import { countContext } from "../contexts/countContext";
+import { CountContext } from "../contexts/CountContext";
 import { OnlineUser } from "./OnlineUser";
 
 export const Header = ( ) =>{
     
-    const countCtx = useContext(countContext);
+    const countCtx = useContext(CountContext);
     
     return (
     <header>
