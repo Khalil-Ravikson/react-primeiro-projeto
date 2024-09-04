@@ -12,7 +12,11 @@ export const Header = ( ) =>{
 
     const handleButtonClick = () =>{
         if(tittleInput && bodyInput){
-            headeCtx?.addPost(tittleInput,bodyInput)
+            headeCtx?.dispatch(
+                {
+                    type: "add",payload: {title: tittleInput, body: bodyInput}
+                }
+            );
             setTittleInput("");
             setBodyInput("");
         }

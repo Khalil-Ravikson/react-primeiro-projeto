@@ -1,21 +1,20 @@
-import { createContext, ReactNode, useContext, useState } from "react";
+import { createContext, Dispatch, ReactNode, useContext, useReducer, useState } from "react";
 import { Post } from "../types/Post";
+import { PostActions, postReducer } from "@/reducers/postReducer";
 
-type postConstextType ={
+type postConstextType = {
     posts: Post[];
-    addPost: (title:string, body: string) => void;
+    dispatch: Dispatch<PostActions>;
 }
 export const PostConstext = createContext<postConstextType | null>(null);
 
 
-export const PostProvider = ({children}:{children : ReactNode}) =>{
-    const [posts,setPosts] = useState<Post[]>([])
-    const addPost = (title:string, body:string) => {
-        setPosts([...posts, {id: posts.length, title,body}])
-    }
+export const PostProvider = ({ children }: { children: ReactNode }) => {
 
-    return(
-    <PostConstext.Provider value={{ posts, addPost }}>{children}</PostConstext.Provider>
+    const [posts, dispatch] = useReducer(postReducer, []);
+
+    return (
+        <PostConstext.Provider value={{ posts, dispatch }}>{children}</PostConstext.Provider>
     );
 
 }
