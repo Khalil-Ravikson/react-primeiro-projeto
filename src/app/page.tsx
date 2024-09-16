@@ -1,25 +1,23 @@
-// @ts-nocheck
-import { Children } from "react";
-import { Geoform } from "./components/Geoform";
-import { Person } from "./components/Person";
-import { Circle } from "./components/circle";
-import { Card } from "./components/Children";
-import { Ifcard } from "./components/Ifcard";
-import ImageContainer from "./components/ImageContainer";
-import ButtonComponent from "./components/ButtonComponent";
-import { Hora } from "./components/Hora";
-import { Square } from "./components/Square";
+"use client";
 
-function Page(){
+import { Footer } from "./components/Footer";
+import { Header } from "./components/Header";
+import { PostList } from "./components/PostList";
+import { PostProvider } from "./contexts/PostContext";
 
+const page = () => {
+    return (
+    <div className="bg-gradient-to-r from-blue-300 via-blue-500 to-blue-700 min-h-screen text-white p-6">
+        <PostProvider>
+            <div className="container mx-auto">
+                <Header/>
+                <PostList/>
+                <Footer/>
+            </div> 
+        </PostProvider>
+   
+    </div>
 
-  return (
-   <div >
-      <div> <Hora/> </div>
-      
-    
-   </div>
-  );
+    );
 }
-
-export default Page; 
+export default page;

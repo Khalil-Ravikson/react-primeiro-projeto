@@ -1,0 +1,69 @@
+[33mcommit faf8b33e2922cfe3add710f658f8c615e70e0662[m[33m ([m[1;36mHEAD -> [m[1;32mHOME-branch[m[33m)[m
+Author: Khalil Ravikson Alcantara do Carmo <khalilrvk2017@gmail.com>
+Date:   Mon Jul 29 22:45:24 2024 -0300
+
+    Images
+
+[33mcommit b46bf13e2598ff3bd21e2e0a9332064aee0c8226[m
+Author: Khalil Ravikson Alcantara do Carmo <khalilrvk2017@gmail.com>
+Date:   Mon Jul 29 22:34:33 2024 -0300
+
+    Fist Commit
+
+[33mcommit 5615c5377587a83bbd845a3163df611ac372bbc4[m
+Author: Khalil Ravikson Alcantara do Carmo <khalilrvk2017@gmail.com>
+Date:   Mon Jul 29 22:29:27 2024 -0300
+
+    Test
+
+[33mcommit 198e4708e226f39918936eebcdbaa98a6a776802[m
+Merge: 974dc3d 7e86d7a
+Author: Khalil Ravikson Alcantara do Carmo <khalilrvk2017@gmail.com>
+Date:   Mon Jul 29 19:38:01 2024 -0300
+
+    Resolvendo conflitos de merge
+
+[33mcommit 974dc3dd87e8f0e4407eb9c6f4407041097f53e0[m
+Author: Khalil Ravikson Alcantara do Carmo <khalilrvk2017@gmail.com>
+Date:   Mon Jul 29 19:33:54 2024 -0300
+
+    Atualização manipulação de ARRAYS
+
+[33mcommit 90680576700c236809be8b6d503826373d3f2a9f[m[33m ([m[1;31morigin/HOME-branch[m[33m)[m
+Author: Khalil Ravikson Alcantara do Carmo <khalilrvk2017@gmail.com>
+Date:   Fri Apr 19 23:24:05 2024 -0300
+
+    lista basica
+
+[33mcommit 208b3457771aedab15a29bb7681956836d4e2359[m[33m ([m[1;31morigin/main[m[33m, [m[1;32mmain[m[33m)[m
+Author: Khalil Ravikson Alcantara do Carmo <khalilrvk2017@gmail.com>
+Date:   Thu Apr 18 14:20:31 2024 -0300
+
+    third Commit
+    
+    "Implementado componente Geoform e adicionado componente Hora para exibição de hora.
+    Atualizado page.tsx para usar esses componentes."
+
+[33mcommit 7e86d7a20456c8dbfdc1e45b3a422fbf22e35471[m[33m ([m[1;31morigin/LAB-branch[m[33m)[m
+Author: Khalil-Ravikson <khalilravikson2012@hotmail.com>
+Date:   Wed Apr 17 16:46:55 2024 -0300
+
+    LAB 1 Commit
+
+[33mcommit 7d2d4b83742a5470553a508663aa2fbde01831b6[m
+Author: Khalil Ravikson Alcantara do Carmo <khalilrvk2017@gmail.com>
+Date:   Tue Apr 16 21:04:16 2024 -0300
+
+    Second Commit
+
+[33mcommit e8ded527b1b2198e0e21d6829d1625e70b987902[m
+Author: Khalil Ravikson Alcantara do Carmo <khalilrvk2017@gmail.com>
+Date:   Mon Apr 15 19:46:47 2024 -0300
+
+    First Commit
+
+[33mcommit 25c6353821876fd4b9b9266b96c3adec2092e205[m
+Author: Khalil Ravikson Alcantara do Carmo <khalilrvk2017@gmail.com>
+Date:   Mon Apr 8 20:30:05 2024 -0300
+
+    Initial commit from Create Next App
